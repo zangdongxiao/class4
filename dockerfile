@@ -6,6 +6,7 @@ RUN cat /etc/lsb-release
 
 RUN apt-get install -y python
 RUN apt-get install -y python3-pip
+RUN pip3 install numpy pandas
 #
 # CHECK!  Install: python3 instead of python2 (if its not 3 already)
 # Install: pip (python package installer) for the corresponding Python 3,
